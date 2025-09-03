@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BlueWell Water Services</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #005f99;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 26px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1601481221704-d45765e0ed6e?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      background-color: #fff;
+    }
+
+    .section h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .service {
+      flex: 1 1 250px;
+      background: #e6f2fb;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #007acc;
+    }
+
+    .service h4 {
+      color: #005f99;
+    }
+
+    footer {
+      background-color: #003d66;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .services {
+        flex-direction: column;
+      }
+
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <h1>BlueWell Water</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Clean Water, Deep Solutions</h2>
+      <p>Professional Borehole Drilling & Water Resource Management</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h3>About Us</h3>
+      <p>BlueWell Water Services is committed to providing sustainable, safe, and efficient water solutions. From borehole drilling to groundwater testing, we serve homes, businesses, farms, and communities in need of reliable water access.</p>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <h3>Our Services</h3>
+      <div class="services">
+        <div class="service">
+          <h4>Borehole Drilling</h4>
+          <p>We drill deep and shallow boreholes using modern equipment, ensuring long-term water access.</p>
+        </div>
+        <div class="service">
+          <h4>Water Testing</h4>
+          <p>Comprehensive testing of water quality for health and safety compliance.</p>
+        </div>
+        <div class="service">
+          <h4>Pump Installation</h4>
+          <p>We install and maintain submersible pumps for boreholes and wells.</p>
+        </div>
+        <div class="service">
+          <h4>Water Resource Management</h4>
+          <p>Strategic planning and consulting for sustainable water use in agriculture, industry, and community projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <p>📍 Location: Anywhere, Earth</p>
+      <p>📞 Phone: +123 456 7890</p>
+      <p>✉️ Email: contact@bluewellwater.com</p>
+      <p>© 2025 BlueWell Water Services</p>
+    </div>
+  </footer>
+
+</body>
+</html>
